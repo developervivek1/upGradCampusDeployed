@@ -3472,9 +3472,7 @@ ul.newsletter-series li {
 /* ============= chetan ============== */
 /* ============= chetan ============== */
 /* First Section */
-.owl-carousel .owl-item img{
-  width: auto !important;
-}
+
 .logo-compaines .owl-carousel .owl-item img{
   width: auto !important;
 }
