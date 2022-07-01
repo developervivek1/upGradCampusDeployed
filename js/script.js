@@ -84,16 +84,3 @@ closeLast.forEach(elem => {
 });
 
 
-// limenu.forEach(elem => {
-//   elem.addEventListener('click',(e)=>
-//   {
-//     let navlink = e.target.closest('li').querySelector('.nav-link');
-//     let active_navlink = e.target.closest('ul').querySelector('.nav-link.show');
-//     if(!navlink.classList.contains('show'))
-//     {
-//       active_navlink.classList.remove('show');
-//       navlink.classList.add('show');
-//     }
-//   })
-// });
-

@@ -293,7 +293,7 @@ body{
   line-height: 1.3;
 }
 
-.headDiv a{
+.headDiv h5{
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0px;
@@ -2461,7 +2461,7 @@ footer .secondDiv ul li {
   line-height: 38px;
 }
 footer .firstDiv2 p {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 35px;
 }
 footer .form h6 {
@@ -2991,15 +2991,18 @@ h5.card-text {
     font-size: 10px;
 }
   .form-elem .custom-select .box {
-    height: 46px;}
+    height: 46px;
+  }
    
    section.contact-form .contact-box, .contact-info .contact-box {
     padding: 27px 15px;
   }
   .form-elem .spanBefore {
     width: 47px;
+    height: 46px;
   }
   section.contact-form input.form-control, section.contact-form textarea.form-control, section.contact-form select.form-select {
+    height: 46px;
     padding: 12px 0px 12px 14px;
  }
  .form-elem .custom-select .box p {
@@ -4846,6 +4849,7 @@ footer .form input {
   }
   .nav-link.show > span::after {
     z-index: 1000;
+    display: none;
   }
   .btnStudent {
     background: none;
@@ -4856,6 +4860,7 @@ footer .form input {
     word-spacing: 1px;
     position: relative;
     font-size: 12px !important;
+    white-space: nowrap;
   }
   .btnStudent + span
   {
@@ -4863,6 +4868,7 @@ footer .form input {
     width: 25px;
     background-repeat: no-repeat;
     background-position: center 47%;
+    margin-left: 8px;
   }
   .joinCourse span {
     font-weight: 500;
@@ -4974,7 +4980,7 @@ footer .form input {
   .dropdown-last .headDiv h6 {
     font-size: 13px;
   }
-  .dropdown-last .headDiv a {
+  .dropdown-last .headDiv h5 {
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -4982,7 +4988,7 @@ footer .form input {
     width: 100%;
     margin-bottom: 0.5rem;
   }
-  .dropdown-last .headDiv a span {
+  .dropdown-last .headDiv h5 span {
     background: url(../img/arrow-right-red.svg) no-repeat 50% 38%;
     height: 15px;
     background-size: contain;
