@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="98" viewBox="0 0 97 98">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6976"/>
+      <stop offset="1" stop-color="#ee2c3c"/>
+    </linearGradient>
+  </defs>
+  <g id="Learning_Minutes" data-name="Learning Minutes" transform="translate(-0.432 0.381)">
+    <rect id="Rectangle_674" data-name="Rectangle 674" width="97" height="98" rx="12" transform="translate(0.432 -0.381)" fill="url(#linear-gradient)"/>
+    <g id="Learning_Minutes-2" data-name="Learning Minutes" transform="translate(8.576 8.576)">
+      <g id="Group_2544" data-name="Group 2544" transform="translate(0 0)">
+        <rect id="Rectangle_555" data-name="Rectangle 555" width="81" height="81" transform="translate(-0.144 0.043)" fill="none"/>
+        <g id="Group_2541" data-name="Group 2541" transform="translate(14.292 11.434)">
+          <path id="Path_2857" data-name="Path 2857" d="M2318.176,447.063h5.761a4.707,4.707,0,0,1,4.708,4.707v11.176" transform="translate(-2284.773 -441.033)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_27" data-name="Line 27" x2="9.91" transform="translate(17.491 6.03)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <path id="Path_2858" data-name="Path 2858" d="M2142,487.653l-21.99-.032a4.707,4.707,0,0,1-4.708-4.707V451.77a4.707,4.707,0,0,1,4.708-4.707h6.776" transform="translate(-2115.295 -441.033)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <rect id="Rectangle_516" data-name="Rectangle 516" width="15.566" height="6.432" rx="3.216" transform="translate(4.783 22.064)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <path id="Path_2859" data-name="Path 2859" d="M2270.342,550.892h-5.553a.7.7,0,0,1-.7-.7v-5.037a.7.7,0,0,1,.7-.7h14.17a.7.7,0,0,1,.7.7v.967" transform="translate(-2239.591 -522.396)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <rect id="Rectangle_517" data-name="Rectangle 517" width="15.566" height="6.432" rx="3.216" transform="translate(4.783 32.753)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <path id="Path_2860" data-name="Path 2860" d="M2266.574,615.822h-1.785a.7.7,0,0,1-.7-.7v-5.036a.7.7,0,0,1,.7-.7h3.459" transform="translate(-2239.591 -576.637)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_28" data-name="Line 28" x2="43.872" transform="translate(0 16.809)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <g id="Group_2487" data-name="Group 2487" transform="translate(11.499 0)">
+            <rect id="Rectangle_518" data-name="Rectangle 518" width="5.959" height="12.013" rx="2.98" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <rect id="Rectangle_519" data-name="Rectangle 519" width="5.959" height="12.013" rx="2.98" transform="translate(15.892)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          </g>
+          <circle id="Ellipse_150" data-name="Ellipse 150" cx="15.773" cy="15.773" r="15.773" transform="translate(28.099 24.706)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <path id="Path_2861" data-name="Path 2861" d="M2381.767,596.119v9.572a.458.458,0,0,0,.184.367l8.19,6.112" transform="translate(-2337.895 -565.551)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_29" data-name="Line 29" y1="2.457" transform="translate(43.872 24.706)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_30" data-name="Line 30" x2="2.457" transform="translate(57.02 40.45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_31" data-name="Line 31" x2="2.457" transform="translate(28.267 40.45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_32" data-name="Line 32" y1="2.457" transform="translate(43.872 53.738)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

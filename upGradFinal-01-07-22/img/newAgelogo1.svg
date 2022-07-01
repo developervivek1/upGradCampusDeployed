@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="57 54 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6976"/>
+      <stop offset="1" stop-color="#ee2c3c"/>
+    </linearGradient>
+    <filter id="Rectangle_417" x="0" y="0" width="186" height="186" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="19" result="blur"/>
+      <feFlood flood-color="#aeaeae" flood-opacity="0.188"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3065" data-name="Group 3065" transform="translate(19 -236)">
+    <g transform="matrix(1, 0, 0, 1, -19, 236)" filter="url(#Rectangle_417)">
+      <rect id="Rectangle_417-2" data-name="Rectangle 417" width="72" height="72" rx="16" transform="translate(57 54)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2575" data-name="Group 2575" transform="translate(23549.516 -2627.842)">
+      <rect id="Rectangle_562" data-name="Rectangle 562" width="50.941" height="50.941" transform="translate(-23500.516 2928.843)" fill="none"/>
+      <g id="Group_2569" data-name="Group 2569" transform="translate(-23495.217 2934.424)">
+        <path id="Path_2924" data-name="Path 2924" d="M2178.88,1951.03h-12.39a1.015,1.015,0,0,1-1.015-1.015v-30.926a1.015,1.015,0,0,1,1.015-1.015h3.307" transform="translate(-2161.896 -1915.507)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <path id="Path_2925" data-name="Path 2925" d="M2285.618,1918.073h13.843a1.015,1.015,0,0,1,1.015,1.015V1938.6" transform="translate(-2270.085 -1915.507)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <ellipse id="Ellipse_161" data-name="Ellipse 161" cx="3.899" cy="3.899" rx="3.899" ry="3.899" transform="translate(7.901 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <path id="Path_2926" data-name="Path 2926" d="M2218.733,1959.372v6.074a.224.224,0,0,0,.369.17l2.595-2.229,2.565,2.2a.224.224,0,0,0,.369-.17v-6.049" transform="translate(-2209.855 -1952.697)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_74" data-name="Line 74" x2="12.856" transform="translate(8.882 16.922)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_75" data-name="Line 75" x2="5.705" transform="translate(9.085 19.893)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_76" data-name="Line 76" x2="5.705" transform="translate(20.903 5.914)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_77" data-name="Line 77" x2="5.705" transform="translate(20.903 9.29)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <g id="Group_2526" data-name="Group 2526" transform="translate(14.727 24.447)">
+          <path id="Path_2927" data-name="Path 2927" d="M2277.625,2141.095l12.141-3.093a.187.187,0,0,1,.087,0l12.4,2.939a.112.112,0,0,1,0,.222l-12.271,3.146a.178.178,0,0,1-.088,0l-12.273-2.993A.111.111,0,0,1,2277.625,2141.095Z" transform="translate(-2277.524 -2137.996)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <path id="Path_2928" data-name="Path 2928" d="M2319.735,2182.2v10.314a.524.524,0,0,0,.531.517h15.376a.524.524,0,0,0,.531-.517v-10.426" transform="translate(-2315.535 -2177.701)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_78" data-name="Line 78" y2="2.625" transform="translate(24.736 3.166)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <rect id="Rectangle_542" data-name="Rectangle 542" width="1.742" height="2.252" rx="0.871" transform="translate(23.875 5.839)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <path id="Path_2929" data-name="Path 2929" d="M2143.771,2131.346h-13.347c-.51,0-.924-.29-.924-.648V2118.96c0-.358.414-.648.924-.648H2132" transform="translate(-2129.5 -2095.823)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

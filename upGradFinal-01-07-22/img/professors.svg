@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="98" viewBox="0 0 97 98">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6976"/>
+      <stop offset="1" stop-color="#ee2c3c"/>
+    </linearGradient>
+  </defs>
+  <g id="Professors" transform="translate(0.189 0.381)">
+    <rect id="Rectangle_675" data-name="Rectangle 675" width="97" height="98" rx="12" transform="translate(-0.189 -0.381)" fill="url(#linear-gradient)"/>
+    <g id="Professors-2" data-name="Professors" transform="translate(8.576 7.623)">
+      <g id="Group_2545" data-name="Group 2545" transform="translate(0 0)">
+        <g id="Group_2542" data-name="Group 2542">
+          <rect id="Rectangle_553" data-name="Rectangle 553" width="81" height="81" transform="translate(0.235 -0.004)" fill="none"/>
+          <g id="Group_2539" data-name="Group 2539" transform="translate(6.94 14.31)">
+            <path id="Path_2843" data-name="Path 2843" d="M891.465,499.46V498.9a3.849,3.849,0,0,1,3.849-3.849h1.676a4.731,4.731,0,0,0,2.6-.779l.21-.138a10.64,10.64,0,0,1,5.41-1.742h0a4.208,4.208,0,0,1,4.381,4.2h0a4.208,4.208,0,0,1-4.208,4.208h-6.3a2.021,2.021,0,0,0-2.021,2.021v2.894a2.8,2.8,0,0,1-2.8,2.8h0a2.8,2.8,0,0,1-2.8-2.8Z" transform="translate(-882.402 -478.441)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <path id="Path_2844" data-name="Path 2844" d="M912.631,548.7a5.206,5.206,0,0,0,4.636,2.834h0a5.207,5.207,0,0,0,5.207-5.207v-5.207" transform="translate(-899.911 -518.747)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <path id="Path_2845" data-name="Path 2845" d="M858.377,560.658s-3.354-19.862,9.8-19.862H884.2a8.941,8.941,0,0,0,6.053-2.361L901.3,528.277a.51.51,0,0,1,.855.375v7.111l-6.119,7.924a9.547,9.547,0,0,1-4.565,3.232l-16.506,5.447" transform="translate(-854.713 -508.014)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_19" data-name="Line 19" y1="9.979" transform="translate(25.36 42.666)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_20" data-name="Line 20" x2="31.432" transform="translate(0 52.645)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_21" data-name="Line 21" x1="4.573" y1="4.283" transform="translate(42.286 24.217)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <path id="Path_2846" data-name="Path 2846" d="M872.488,457.988V434.051a3.446,3.446,0,0,1,3.446-3.445h53.66a3.446,3.446,0,0,1,3.446,3.445v32.062a3.446,3.446,0,0,1-3.446,3.446H899.485" transform="translate(-866.703 -427.327)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_22" data-name="Line 22" x2="19.5" transform="translate(39.146 13.499)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_23" data-name="Line 23" x2="11.015" transform="translate(48.016 19.284)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+            <rect id="Rectangle_505" data-name="Rectangle 505" width="7.135" height="5.207" rx="1" transform="translate(29.504 11.377)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <rect id="Rectangle_506" data-name="Rectangle 506" width="10.799" height="5.207" rx="1" transform="translate(50.716 37.025)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            <g id="Group_2480" data-name="Group 2480" transform="translate(13.474 0)">
+              <rect id="Rectangle_507" data-name="Rectangle 507" width="6.799" height="3.278" rx="1" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1.5"/>
+              <rect id="Rectangle_508" data-name="Rectangle 508" width="6.799" height="3.278" rx="1" transform="translate(38.375)" fill="none" stroke="#fff" stroke-width="1.5"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

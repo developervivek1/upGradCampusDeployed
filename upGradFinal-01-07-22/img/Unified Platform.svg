@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="57 54 42 41">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.1" y1="0.095" x2="0.925" y2="0.918" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6976"/>
+      <stop offset="1" stop-color="#ee2c3c"/>
+    </linearGradient>
+    <filter id="Rectangle_128" x="0" y="0" width="156" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="19" result="blur"/>
+      <feFlood flood-color="#737373" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Unified_Platform" data-name="Unified Platform" transform="translate(-925.719 -301.47)">
+    <g transform="matrix(1, 0, 0, 1, 925.72, 301.47)" filter="url(#Rectangle_128)">
+      <rect id="Rectangle_128-2" data-name="Rectangle 128" width="42" height="41" rx="10" transform="translate(57 54)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_3040" data-name="Group 3040" transform="translate(511.104 130.808)">
+      <path id="Path_3293" data-name="Path 3293" d="M503.464,253.825H482.3a1.511,1.511,0,0,1-1.666-1.483V237.983a1.442,1.442,0,0,1,1.4-1.483H503.2a1.442,1.442,0,0,1,1.4,1.483v14.358A1.44,1.44,0,0,1,503.464,253.825Z" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1"/>
+      <rect id="Rectangle_703" data-name="Rectangle 703" width="6.939" height="4.891" rx="2.446" transform="translate(484.178 238.946)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_220" data-name="Line 220" x2="8.478" transform="translate(492.614 247.272)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_221" data-name="Line 221" x2="8.478" transform="translate(492.614 250.484)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_3294" data-name="Path 3294" d="M578.464,262.4l.9,4.666a.192.192,0,0,0,.325.1l.841-.841a.193.193,0,0,1,.272,0l1.966,1.966a.193.193,0,0,0,.272,0l1.483-1.483a.192.192,0,0,0,0-.272l-1.927-1.927a.193.193,0,0,1,0-.272l.815-.815a.192.192,0,0,0-.094-.324l-4.621-1.023A.192.192,0,0,0,578.464,262.4Z" transform="translate(-84.666 -22.953)" fill="none" stroke="#fff" stroke-width="1"/>
+      <circle id="Ellipse_230" data-name="Ellipse 230" cx="2.945" cy="2.945" r="2.945" transform="translate(484.178 245.933)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
