@@ -4807,7 +4807,9 @@ footer .order3{
 footer .form input {
   width: 55%;
 }
-
+.whatsapp a{
+  width: 25%;
+}
 }
 
 /*my css end 600px */
