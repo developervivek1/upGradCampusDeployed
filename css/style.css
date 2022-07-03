@@ -4301,7 +4301,15 @@ line {
   }
 }
 
-
+.card.slider-card .card-body .button1{
+  float: right;
+  float: inline-end;
+  margin-top: 21px;
+  width: 34% !important;
+}
+.card.slider-card{
+  height: 100% !important;
+}
 
 /* =========== chetan end css ============== */
   
