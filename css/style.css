@@ -4480,6 +4480,10 @@ font-weight: 400;
   bottom: 186px;
 }
 
+.owl-one .cardContent {
+  height: 200px !important;
+}
+
 .techCard .cardContent p {
   font-size: 17px;
 }
@@ -4812,6 +4816,9 @@ footer .form input {
 }
 }
 
+.owl-one .cardContent{
+  height: 165px;
+}
 /*my css end 600px */
 
 
