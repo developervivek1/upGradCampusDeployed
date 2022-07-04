@@ -3722,7 +3722,7 @@ a:visited {
   text-align: left;
 }
 
-.card-body .button1 {
+.card.slider-card .button1 {
   background-color: #ee2c3c;
   color: #fff;
   border: 0px;
