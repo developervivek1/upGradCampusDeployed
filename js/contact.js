@@ -8,7 +8,7 @@ const email = document.querySelector('form #email');
 const phone = document.querySelector('form #phoneNumber');
 const insname = document.querySelector('form #institution');
 let usernameVal;
-
+console.log(username);
 btnValidate.addEventListener('click', (e) => {
   e.preventDefault();
   validate();

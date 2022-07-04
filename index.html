@@ -833,10 +833,7 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
               aria-label="Slide 6"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-              aria-label="Slide 7"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
-              aria-label="Slide 8"></button>
-      
+              aria-label="Slide 7"></button>      
           </div>
           <div class="carousel-inner position-relative">
             <div class="carousel-item  active">
@@ -892,7 +889,7 @@
                 </div>
                 <div class="text_part">
                   <h5>Join our 4 year Joint Degree Program in</h5>
-                  <h3 class="text-uppercase">B.Tech. (CSE) - Artificial Intelligence & Machine Learning</h3>
+                  <h3 class="text-uppercase">B.Tech. (CSE) - AI & ML</h3>
                   <img src="img/curly.png" alt="curly">
                 </div>
                 <div class="bar_div">
@@ -1031,7 +1028,7 @@
                 </div>
                 <div class="text_part">
                   <h5>Join our 4 year Joint Degree Program in</h5>
-                  <h3 class="text-uppercase">B.Tech. (CSE) - Artificial Intelligence & Machine Learning</h3>
+                  <h3 class="text-uppercase">B.Tech. (CSE) - AI & ML</h3>
                   <img src="img/curly.png" alt="curly">
                 </div>
                 <div class="bar_div">
@@ -1077,7 +1074,7 @@
                 </div>
                 <div class="text_part">
                   <h5>Join our 4 year Joint Degree Program in</h5>
-                  <h3 class="text-uppercase">B.Tech. (CSE) - Artificial Intelligence & Data Science</h3>
+                  <h3 class="text-uppercase">B.Tech. (CSE) - AI & Data Science</h3>
                   <img src="img/curly.png" alt="curly">
                 </div>
                 <div class="bar_div">
@@ -1123,7 +1120,7 @@
                 </div>
                 <div class="text_part">
                   <h5>Join our 4 year Joint Degree Program in</h5>
-                  <h3 class="text-uppercase">B.Tech. (CSE) - Artificial Intelligence & Machine Learning</h3>
+                  <h3 class="text-uppercase">B.Tech. (CSE) - AI & ML</h3>
                   <img src="img/curly.png" alt="curly">
                 </div>
                 <div class="bar_div">
@@ -1169,7 +1166,7 @@
                 </div>
                 <div class="text_part">
                   <h5>Join our 4 year Joint Degree Program in</h5>
-                  <h3 class="text-uppercase">B.Tech. (CSE) - Artificial Intelligence & Machine Learning</h3>
+                  <h3 class="text-uppercase">B.Tech. (CSE) - AI & ML</h3>
                   <img src="img/curly.png" alt="curly">
                 </div>
                 <div class="bar_div">
@@ -2835,20 +2832,21 @@
         center: true,
         items: 4,
         loop: true,
-        autoplay: true,
+        autoplay:true,
+        autoplayTimeout: 2500,
+        dots: false,
         autoplayHoverPause: true,
         margin: 20,
+        smartSpeed: 500,
         responsive: {
           0: {
             stagePadding: 20,
             items: 1
           },
           600: {
-            items: 4
+            items: 4,
           }
         }
-
-
       });
 
       $('.owl-two').owlCarousel({
