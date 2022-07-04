@@ -3901,9 +3901,8 @@ p {
 .third-section .row {
   --bs-gutter-x: 0rem !important;
 }
-.third-section .card-body>.card-text{
-  width: 70%;
-  margin: auto;
+.third-section .item{
+  height: 500px;
 }
 
 /* Fourth Section */
