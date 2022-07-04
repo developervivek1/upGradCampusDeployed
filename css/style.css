@@ -3733,7 +3733,9 @@ a:visited {
   box-shadow: none;
   border-radius: 06px;
   margin-right: 10px;
-  text-align: left;
+  margin-top: 20px;
+  text-align: center;
+  width: 55%;
 }
 
 .button2 {
