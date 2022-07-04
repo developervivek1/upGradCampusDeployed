@@ -1222,7 +1222,7 @@ header .overlay.active
 }
 #subscribeModal.show{
   display:block;
-  animation: slideTop 0.2s ease;
+  animation: slideTop 0.3s ease;
 }
 
 @keyFrames slideTop{
@@ -5146,7 +5146,7 @@ footer .form input {
   }
 
   .banner-section .grp_logo {
-    margin-bottom: 27px;
+    margin-bottom: 5px;
   }
   .banner-section .grp_logo img {
     width: 50%;
