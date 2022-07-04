@@ -4308,7 +4308,7 @@ line {
 }
 
 .card.slider-card .card-body .button1{
-  float: right;
+  text-align: center;
   float: inline-end;
   margin-top: 21px;
   width: 34% !important;
