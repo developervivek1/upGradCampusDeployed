@@ -3901,6 +3901,10 @@ p {
 .third-section .row {
   --bs-gutter-x: 0rem !important;
 }
+.third-section .card-body>.card-text{
+  width: 70%;
+  margin: auto;
+}
 
 /* Fourth Section */
 .logo-image img {
