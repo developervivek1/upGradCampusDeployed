@@ -837,16 +837,16 @@ box-shadow: 0px 10px 60px #262D7614;
 }
 
   .slentedDiv{
-   background-image: url('../img/Path.svg') ;
+   background-image: url('../img/Bg.png') ;
    background-size: cover;
    background-position: top;
    /* clip-path: polygon(0 8%, 100% 0, 100% 60%, 0 90%); */
    padding: 50px 0rem 0rem 0rem;
 }
 
-.sliderDiv{
+/* .sliderDiv{
   height: 100vh;
-}
+} */
 .title h4{
   /*font-family:AvenirLTProMedium ;*/
   font-weight: 900;
