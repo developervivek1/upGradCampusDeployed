@@ -3715,7 +3715,7 @@ a:visited {
   padding-bottom: 10px;
   padding-right: 0px;
   padding-left: 20px;
-  box-shadow: 0px 0px 7px 2px #ee2c3c96;
+  /* box-shadow: 0px 0px 7px 2px #ee2c3c96; */
   border-radius: 06px;
   margin-right: 10px;
   width: 210px;
