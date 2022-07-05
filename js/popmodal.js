@@ -1,4 +1,5 @@
 let setOfevents = ['mousemove','mousedown','scroll','click','dblclick','mouseleave','mouseenter','resize'];
+let setTimeforPop;
 
 setOfevents.forEach((e)=>{
   window.addEventListener(e, detecttype);
@@ -13,7 +14,9 @@ function detecttype(event) {
   }
 }
 
-let setTimeforPop = setTimeout(dispSubscribe, 15000);
+window.addEventListener('DOMContentLoaded',()=>{
+    setTimeforPop = setTimeout(dispSubscribe, 15000);
+})
 
 function dispSubscribe(){
   let modal = document.querySelector('#subscribeModal');
