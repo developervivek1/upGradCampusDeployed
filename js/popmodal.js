@@ -1,19 +1,20 @@
 let setOfevents = ['mousemove','mousedown','scroll','click','dblclick','mouseleave','mouseenter','resize'];
 
-function recursion(e){
-  if(setOfevents.includes(e.type)){
-      clearTimeout(dispSubscribe);
-  }
-  else{
-    setTimeout(dispSubscribe, 15000);
-    recursion(e);
+setOfevents.forEach((e)=>{
+  window.addEventListener(e, detecttype);
+})
+
+function detecttype(event) {
+  // if (event===undefined) event= window.event;
+  // let target= 'target' in event? event.target : event.srcElement;
+  if(setOfevents.includes(event.type)){
+    clearTimeout(setTimeforPop);
+    setTimeforPop = setTimeout(dispSubscribe, 15000);
   }
 }
-window.addEventListener('load', (e)=>{
-  recursion(e);
-});
 
-setTimeout(dispSubscribe,  15000);
+let setTimeforPop = setTimeout(dispSubscribe, 15000);
+
 function dispSubscribe(){
   let modal = document.querySelector('#subscribeModal');
   let overlay = document.querySelector('.overlay');
