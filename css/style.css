@@ -3660,6 +3660,7 @@ ul.newsletter-series li {
   height: 240px;
 }
 .slider-card .card-text {
+  text-align: center;
   font-weight: bold;
   font-size: 26px;
 }
