@@ -848,11 +848,17 @@ box-shadow: 0px 10px 60px #262D7614;
     opacity: 1;
   }
 
-  .owl-two,.owl-five,.owl-six .owl-stage{
+  .owl-two .owl-stage{
     display: flex;
     justify-content: center;
     align-items: center;
   }
+ .owl-six .owl-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
 
   .owl-five .owl-stage{
     display: flex;
@@ -3676,8 +3682,8 @@ ul.newsletter-series li {
   margin-bottom: 15px;
 }
 #slider--1 {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 9px;
+  margin-left: 9px;
 }
 .main-section {
   background-color: #fbf6f6;
