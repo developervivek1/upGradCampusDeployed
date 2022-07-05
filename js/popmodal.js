@@ -13,7 +13,7 @@ window.addEventListener('load', (e)=>{
   recursion(e);
 });
 
-setTimeout(dispSubscribe, 15000);
+setTimeout(dispSubscribe,  15000);
 function dispSubscribe(){
   let modal = document.querySelector('#subscribeModal');
   let overlay = document.querySelector('.overlay');
