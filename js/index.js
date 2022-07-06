@@ -1,3 +1,20 @@
+const wapp = document.querySelector('.whatsapp a img');
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(() => {
+    if(!wapp.classList.contains('active')){
+      wapp.classList.add('active');
+    }
+  }, 5000);
+  
+  setTimeout(() => {
+    if(wapp.classList.contains('active')){
+      wapp.classList.remove('active');
+    }
+  }, 300000);
+})
+
+
 //owl carouse
 $(document).ready(function () {
   $('.owl-one').owlCarousel({
