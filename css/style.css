@@ -1241,6 +1241,10 @@ header .overlay.active
     margin-top: 0;
   }
 }
+
+.owl-carousel .owl-item img{
+  width: auto !important;
+}
 /* popup css end */
 
 /* ======== vivek css end ======= */
