@@ -2184,9 +2184,12 @@ header .formoverlay.active {
 }
 
 .form-elem .custom-select .box p {
-  color: #666666;
+  color: #424143;
   font-size: 16px;
   line-height: 18px;
+}
+textarea::placeholder{
+  color:#424143 !important;
 }
 
 .form-elem .option-container {
@@ -2224,8 +2227,12 @@ header .formoverlay.active {
 /*===== Select Style =====*/
 
   input#phoneNumber {
-    color: #666666 !important;
+    /* color: #666666 !important; */
   padding-left: 55px;
+  }
+
+  input::placeholder{
+    color: #424143 !important;
   }
   
   span#insError, span#proError {
@@ -2284,7 +2291,7 @@ header .formoverlay.active {
   text-align: center;
   border-right: solid 1px #CDCDCD;
   padding-top: 14px;
-  color: #424143;
+  color: #0c0c0c;
   opacity: 0.8;
 
   }
