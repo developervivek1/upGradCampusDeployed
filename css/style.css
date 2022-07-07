@@ -588,12 +588,12 @@ button.button1.btn {
   object-fit: contain;
 }
 
-.banner-section .bar_div .col-lg-3, p{
+/* .banner-section .bar_div .col-lg-3, p{
   font-size: 14px;
   flex: 0 0 78%;
   max-width: 78%;
   color: #3B3B51;
-}
+} */
 
 .banner-section .enrollBtn{
   position: absolute;
@@ -979,7 +979,7 @@ box-shadow: 0px 10px 60px #262D7614;
 }
 
 .NewAgeSection{
-  background-image: url('../img/Path.svg') ;
+  background-image: url('../img/Bg.png') ;
   background-size: cover;
   background-position: top;
 }
@@ -1011,7 +1011,7 @@ box-shadow: 0px 10px 60px #262D7614;
 }
 
 .NewAgeCard{
-  height: 90vh;
+  /* height: 90vh; */
   width: 62%;
 }
 
@@ -2549,7 +2549,7 @@ input[type='number']:focus {
   font-size: 12px;
 }
 .techCard .cardContent p, .NewAgeCard .cardContent p {
-  font-size: 15px;
+  font-size: 14px;
 }
 footer .secondDiv ul li {
   font-size: 16px;
@@ -4570,15 +4570,15 @@ font-weight: 400;
 }
 
 .NewAgeSection {
-  background-image: url(../img/Path.svg);
+  background-image: url(../img/Bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 100%;
 }
 
-.NewAgeCard {
+/* .NewAgeCard {
   height: 100vh;
-}
+} */
 
 
 .NewAgeCard .card3 {
