@@ -3725,7 +3725,7 @@ ul.newsletter-series li {
   border-top: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   transform: rotate(45deg);
-  top: calc(50% - 3px);
+  top: calc(50% - 2px);
   position: absolute;
   right: 1px;
 }
