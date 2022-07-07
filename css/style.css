@@ -592,6 +592,7 @@ button.button1.btn {
 }
 
 /* .banner-section .bar_div .col-lg-3, p{
+.banner-section .bar_div .col-lg-3 p{
   font-size: 14px;
   flex: 0 0 78%;
   max-width: 78%;
@@ -1040,21 +1041,43 @@ box-shadow: 0px 10px 60px #262D7614;
 }
 
 /* whatsapp css start */
-.whatsapp a{
-  width: 11%;
+.whatsapp{
+  width: 165px;
+  height: 50px;
   position: fixed;
   z-index: 9999;
-  bottom: 25px;
+  bottom: 3%;
   right: 35px;
 }
-
-.whatsapp a img{
-  width: 100%;
-  transition: all 0.5s;
+.whatsapp a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #25d366;
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s ease;
 }
-
-.whatsapp a img:hover{
-  transform: scale(1.1);
+.whatsapp a:hover,
+.whatsapp a:focus{
+  outline: none;
+  background-color: #25d366;
+  border: none;
+  transform: scale(1.08);
+  box-shadow: none;
+}
+.whatsapp a:hover img{
+  transform: scale(1);
+}
+.whatsapp a p{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+.whatsapp a img{
+  width: 27%;
+  margin-left: 3px;
+  transition: all 0.5s;
 }
 /* whatsapp css end */
 
@@ -1178,39 +1201,69 @@ footer .form button{
 img {
   max-width: 100%;
   }
-  .btn-group li {
+  .pop-on-ld .btn-group li {
   list-style: none;
   }
   
-  .btn-group ul li:nth-child(2) {
-  padding: 10px 30px;
+  .pop-on-ld .btn-group ul li:nth-child(2) {
   font-size: 16px;
   color: #424143;
   line-height: 19px;
   }
-  .btn-group ul {
-  padding: 0px 2rem;
+  .pop-on-ld .btn-group ul {
+  display:flex;
+  justify-content:center;
+  align-items:center;
   }
   .pop-on-ld .modal-body {
      padding: 0px 33px 33px 33px;
   }
-  .pop-on-ld h4 {
+  .pop-on-ld .head_div h4 {
   font-size: 29px;
   color: #424143;
   font-weight: 900;
   margin: 33px 0px 16px 0px;
   }
-  .pop-on-ld p {
+  .pop-on-ld .head_div p {
   font-size: 16px;
   color: #424143;
   line-height: 19px;
-  margin-bottom: 38px;
+  margin: auto;
+  padding-bottom: 34px;
   }
-  .modal.pop-on-ld.show{
-    display: block;
+  .pop-on-ld .btn-group li .btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  .pop-on-ld .btn-group li .btn:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  .pop-on-ld .btn-group li .btn p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .pop-on-ld .btn-group li .btn img{
+    width: 30%;
+  }
+  .pop-on-ld .btn-group li .btn:hover img{
+    transform: scale(1.2);
+  }
+  .pop-on-ld .btn-group li:nth-child(1) .btn{
+    background-color: #25d366;
+  }
+  .pop-on-ld .btn-group li:nth-child(3) .btn{
+    background-color: #EC2C39;
   }
 
-  header .overlay
+header .overlay
 {
   position: fixed;
   top: 0;
@@ -1255,8 +1308,6 @@ header .overlay.active
 /* popup css end */
 
 /* ======== vivek css end ======= */
-
-
 
 
 /* =============== Diksha start ================= */
@@ -2866,19 +2917,16 @@ section.contact-info .contact h2 {
     /*============ Index ===============*/
 
     /*============ Popup ===============*/
-    .pop-on-ld h4 {
+    .pop-on-ld .modal-body {
+      padding: 0px 18px 18px 18px;
+    }
+    .pop-on-ld .head_div h4 {
       font-size: 17px;
       margin: 12px 0px 9px 0px;
     }
-    .btn-group ul li:nth-child(2){
-      font-size: 17px;
-    }
-  
-    .modal-content {
-      margin: 40px;
-    }
-    .pop-on-ld p {
-      margin-bottom: 10px;
+    .pop-on-ld .btn-group ul li:nth-child(2){
+      font-size: 15px;
+      padding: 4px 12px;
     }
     .btn-group img {
       max-width: 84px !important;
@@ -2886,9 +2934,12 @@ section.contact-info .contact h2 {
    .btn-group ul {
       padding: 0;
    }
-  
-  .btn-group ul li:nth-child(2) {
-      padding: 4px 12px;
+  .pop-on-ld .btn-group li .btn {
+    width: 125px;
+    height: 42px;
+  }
+  .pop-on-ld .btn-group li .btn p {
+    font-size: 12px;
   }
   /*============ Popup ===============*/
    .videoText h1{
@@ -2897,10 +2948,11 @@ section.contact-info .contact h2 {
    }
    .bottomBox div h6{
      font-size: 15px;
-     line-height:24px;
+     line-height:22px;
    }
    .bottomBox div p{
      font-size: 14px;
+     margin-top: 0;
    }
    .banner-section .text_part h5{
      font-size: 13px;
@@ -2912,11 +2964,14 @@ section.contact-info .contact h2 {
      font-size: 16px;
    }
    .title h4{
-     font-size: 18px;
-     line-height: 58px;
+     font-size: 20px;
+     line-height: 40px;
+   }
+   .title h4 + img{
+     margin-bottom: 10px;
    }
    .title p{
-     font-size: 15px;
+     font-size: 14px;
    }
    .cardContent h6{
      font-size: 15px;
@@ -3582,7 +3637,7 @@ ul.newsletter-series li {
 .logo-compaines .owl-carousel .owl-item img{
   width: auto !important;
 }
-.whatsapp a img.active {
+.whatsapp.active {
   animation: bounce2 2s ease infinite;
 }
 @keyframes bounce2 {
@@ -4824,9 +4879,9 @@ footer .firstDiv{
   width: 100% !important;
 }
 .bottomBox img{
-  height: 50px;
+  height: 48px;
   margin-right: 10px;
-  width: 50px;
+  width: 48px;
 }
 
 .brandSection > .container{
@@ -4890,7 +4945,7 @@ footer .form input {
   width: 55%;
 }
 .whatsapp a{
-  width: 25%;
+  width: 100%;
 }
 }
 
@@ -5170,6 +5225,7 @@ footer .form input {
 
   .banner-section .grp_logo {
     margin-bottom: 5px;
+    height: 58px;
   }
   .banner-section .grp_logo img {
     width: 50%;
@@ -5212,13 +5268,13 @@ footer .form input {
   }
   .banner-section .carousel-item .right-img {
     right: 6.2%;
-    top: 29%;
+    top: 30%;
     height: 210px;
     width: 87.6%;
   }
   .banner-section .enrollBtn {
     position: absolute;
-    bottom: 16px;
+    bottom: 14px;
     left: 24px;
     font-size: 12px;
     width: 125px;
@@ -5229,16 +5285,28 @@ footer .form input {
     margin-top: 1px;
   }
   .banner-section .carousel-control-prev {
-    top: 37%;
+    top: 42%;
     width: 25px;
     height: 25px;
     left: 2.5%;
   }
   .banner-section .carousel-control-next {
-    top: 37%;
+    top: 42%;
     width: 25px;
     height: 25px;
     right: 2.3%;
+  }
+  .whatsapp {
+    width: 145px;
+    height: 47px;
+    bottom: 1.5%;
+    right: 15px;
+  }
+  .whatsapp a p {
+    font-size: 13px;
+  }
+  .whatsapp a img {
+    width: 21%;
   }
 }
 

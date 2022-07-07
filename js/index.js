@@ -1,4 +1,4 @@
-const wapp = document.querySelector('.whatsapp a img');
+const wapp = document.querySelector('.whatsapp');
 
 window.addEventListener('DOMContentLoaded',()=>{
   setTimeout(() => {
