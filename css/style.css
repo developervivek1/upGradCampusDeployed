@@ -4985,7 +4985,7 @@ footer .order3{
 
 .banner-section .carousel-item .right-img img{
   margin-top: 12px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* footer .imgFooter:hover .imgRed{
