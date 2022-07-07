@@ -3705,7 +3705,7 @@ ul.newsletter-series li {
 .arrow {
   position: relative;
   display: inline-block;
-  padding-top: 9px;
+  padding-top: 10px;
   padding-bottom: 4px;
 }
 .arrow:before {
