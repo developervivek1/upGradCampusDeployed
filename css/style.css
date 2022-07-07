@@ -3717,6 +3717,9 @@ ul.newsletter-series li {
 .button1:hover .arrow:before {
   width: 22px;
 }
+.enrollBtn:hover .arrow:before {
+  width: 22px;
+}
 /* button */
 .card-img-top {
   border-radius: 20px;
