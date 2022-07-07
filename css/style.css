@@ -1394,19 +1394,19 @@ img.blog-banner {
   }
   .blog-img img {
   border-radius: 20px !important;
-  transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
   }
   .blog-grid:hover .blog-img img {
   transform: scale(1.2);
-  transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
   }
   .date {
   font-size: 17px;
@@ -1425,6 +1425,7 @@ img.blog-banner {
   margin-top: -50px;
   z-index: 1;
   position: relative;
+  transition: all 0.3s ease;
   }
   .date span {
   display: block;
@@ -1491,6 +1492,7 @@ img.blog-banner {
   font-size: 19px;
   line-height: 25px;
   text-decoration: none;
+  transition: all 0.3s ease;
   }
   .blog-grid:hover .blog-info h5 a{
   color: #EE2C3C;
@@ -1801,6 +1803,7 @@ img.blog-banner {
     padding-left: 50px;
     border-bottom: solid 1px #dddddd;
     padding-bottom: 20px;
+    transition: all 0.3s ease;
 }
 ul.newsletter-series li:before {
   content: " ";
@@ -1811,6 +1814,7 @@ ul.newsletter-series li:before {
   border-radius: 100%;
   top: 3px;
   left: 30px;
+  transition: all 0.2s ease;
 }
 ul.newsletter-series li:last-child {
   border-bottom: 0 !important;
@@ -1818,10 +1822,11 @@ ul.newsletter-series li:last-child {
   ul.newsletter-series li a {
   color: #454649;
   text-decoration: none;
-  font-size: 22px ;
+  font-size: 22px;
+  transition: all 0.2s ease;
   }
 
-  ul.newsletter-series li a:hover {
+  ul.newsletter-series li:hover a {
   color: #EE2C3C;
   }
   ul.newsletter-series li span {
@@ -1859,6 +1864,7 @@ ul.newsletter-series li:last-child {
   
   .search-box button.input-group-text, .btn-success:hover {
   background: transparent !important;
+  padding: 0 13px;
   }
   .search-box i.bi.bi-search.me-2 {
   margin-right: 21px !important;
@@ -2008,7 +2014,7 @@ ul.newsletter-series li:last-child {
   position: relative;
   padding-left: 15px;
   color: #9496A0;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 20px;
   margin-bottom: 14px;
   }
@@ -2023,7 +2029,7 @@ ul.newsletter-series li:last-child {
   border-radius: 100%;
   }
   .post-content p {
-  font-size: 17px;
+  font-size: 15px;
   color: #9496A0;
   line-height: 23px;
   margin-bottom: 20px
@@ -2645,7 +2651,7 @@ footer .firstDiv2 p {
   letter-spacing: 0.3px;
 }
 footer .form h6 {
-  font-size: 19px;
+  font-size: 20px;
 }
 footer .form button {
   font-size: 18px;
@@ -2726,7 +2732,8 @@ ul.newsletter-series li span {
  }
 
  .blog-single .blog-aside .latest-post-aside .lpa-title a {
-  font-size: 14px !important;
+  font-size: 15px !important;
+  line-height: 19px;
  }
  .post-content h4 {
   font-size: 28px;
@@ -2757,8 +2764,12 @@ ul.newsletter-series li span {
   .widget.widget-latest-post {
   padding-right: 20px;
   }
-  ul.newsletter-series li {
-  margin: 0px 0px 26px 0px;
+  ul.newsletter-series li:not(:last-child) {
+  margin-bottom: 26px;
+  }
+  ul.newsletter-series li:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   /*============ Contact===============*/
   section.contact-form input.form-control, section.contact-form textarea.form-control, section.contact-form select.form-select {

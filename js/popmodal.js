@@ -1,3 +1,21 @@
+const wapp = document.querySelector('.whatsapp');
+
+// whatsapp Pop
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(() => {
+    if(!wapp.classList.contains('active')){
+      wapp.classList.add('active');
+    }
+  }, 5000);
+  
+  setTimeout(() => {
+    if(wapp.classList.contains('active')){
+      wapp.classList.remove('active');
+    }
+  }, 300000);
+})
+
+// popup modal
 let setOfevents = ['mousemove','mousedown','scroll','click','dblclick','mouseleave','mouseenter','resize'];
 let setTimeforPop;
 
