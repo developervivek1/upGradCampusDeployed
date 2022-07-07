@@ -6,8 +6,6 @@ setOfevents.forEach((e)=>{
 })
 
 function detecttype(event) {
-  // if (event===undefined) event= window.event;
-  // let target= 'target' in event? event.target : event.srcElement;
   if(setOfevents.includes(event.type)){
     clearTimeout(setTimeforPop);
     setTimeforPop = setTimeout(dispSubscribe, 15000);
@@ -15,10 +13,12 @@ function detecttype(event) {
 }
 
 window.addEventListener('DOMContentLoaded',()=>{
+  console.log('hello');
     setTimeforPop = setTimeout(dispSubscribe, 15000);
 })
 
 function dispSubscribe(){
+  console.log('hello');
   let modal = document.querySelector('#subscribeModal');
   let overlay = document.querySelector('.overlay');
   modal.classList.add('show');
