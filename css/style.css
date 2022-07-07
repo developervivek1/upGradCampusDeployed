@@ -612,9 +612,10 @@ button.button1.btn {
   height: 50px;
   color: #FFFFFF;
   box-shadow: 0px 0px 12px #EE2C3C61;
+  transition: all 0.2s ease;
 }
 .banner-section .enrollBtn:hover{
-  box-shadow: 0 2px 20px #ee2c3c61;
+  box-shadow: 5px 5px 20px #ee2c3c61;
 }
 .banner-section .enrollBtn img{
   width: 22px;
@@ -1066,7 +1067,7 @@ box-shadow: 0px 10px 60px #262D7614;
   outline: none;
   background-color: #25d366;
   border: none;
-  transform: scale(1.08);
+  transform: scale(1.03);
   box-shadow: none;
 }
 .whatsapp a:hover img{
@@ -1182,13 +1183,17 @@ footer .form input{
   opacity: 1;
 }
 
-
 footer .form input.form-control{
   padding: 0.375rem 1.5rem;
   font-size: 0.9rem;
   letter-spacing: 0.02px;
-color: #2F2F2F;
-opacity: 1;
+  color: #2F2F2F;
+  opacity: 1;
+  outline: none;
+}
+footer .form input.form-control:focus{
+  outline: none;
+  box-shadow: none;
 }
 
 footer .form button{
@@ -1260,8 +1265,11 @@ img {
   .pop-on-ld .btn-group li .btn img{
     width: 30%;
   }
+  .pop-on-ld .btn-group li .btn:hover{
+    transform: scale(1.01);
+  }
   .pop-on-ld .btn-group li .btn:hover img{
-    transform: scale(1.2);
+    transform: scale(1);
   }
   .pop-on-ld .btn-group li:nth-child(1) .btn{
     background-color: #25d366;
@@ -2251,10 +2259,11 @@ header .formoverlay.active {
     color: #fff !important;
     width: 150px;
     height: 50px;
+    transition: all 0.2s ease;
   }
   .contact-form button:hover {
   background: #EE2C3C;
-  box-shadow: 0px 2px 20px #ee2c3c61;
+  box-shadow: 5px 5px 20px #ee2c3c61;
   color: #fff !important;
   }
   .contact-form  .form-control:focus{
@@ -2937,6 +2946,9 @@ section.contact-info .contact h2 {
       font-size: 17px;
       margin: 12px 0px 9px 0px;
     }
+    .pop-on-ld .head_div p {
+      padding-bottom: 29px;
+    }
     .pop-on-ld .btn-group ul li:nth-child(2){
       font-size: 15px;
       padding: 4px 12px;
@@ -2950,7 +2962,7 @@ section.contact-info .contact h2 {
    }
   .pop-on-ld .btn-group li .btn {
     width: 125px;
-    height: 42px;
+    height: 39px;
   }
   .pop-on-ld .btn-group li .btn p {
     font-size: 12px;
@@ -3681,7 +3693,7 @@ ul.newsletter-series li {
 .arrow:before {
   content: "";
   display: block;
-  width: 20px;
+  width: 19px;
   height: 2px;
   background-color: #fff;
   top: 50%;
@@ -3703,7 +3715,7 @@ ul.newsletter-series li {
   cursor: pointer;
 }
 .button1:hover .arrow:before {
-  width: 25px;
+  width: 22px;
 }
 /* button */
 .card-img-top {
@@ -3805,7 +3817,7 @@ a:visited {
   padding-bottom: 10px;
   padding-right: 0px;
   padding-left: 20px;
-  box-shadow: 0px 0px 7px 2px #ee2c3c96;
+  box-shadow: 0px 0px 10px #ee2c3c96;
   border-radius: 06px;
   margin-right: 10px;
   width: 210px;
@@ -5274,7 +5286,7 @@ footer .form input {
     border-radius: 7px;
   }
   .banner-section .bar_div .icon-sm img {
-    width: 50%;
+    width: 58%;
     height: 90%;
   }
   .banner-section .bar_div .col-lg-3 {
@@ -5292,11 +5304,11 @@ footer .form input {
   }
   .banner-section .enrollBtn {
     position: absolute;
-    bottom: 14px;
+    bottom: 16px;
     left: 24px;
     font-size: 12px;
     width: 125px;
-    height: 49px;
+    height: 43px;
   }
   .banner-section .enrollBtn img {
     width: 20px;
@@ -5315,8 +5327,8 @@ footer .form input {
     right: 2.3%;
   }
   .whatsapp {
-    width: 145px;
-    height: 47px;
+    width: 140px;
+    height: 50px;
     bottom: 1.5%;
     right: 15px;
   }
