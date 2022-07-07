@@ -1216,7 +1216,9 @@ img {
   .pop-on-ld .btn-group li {
   list-style: none;
   }
-  
+  .pop-on-ld .modal-body .btn-group{
+    display: inline;
+  }
   .pop-on-ld .btn-group ul li:nth-child(2) {
   font-size: 16px;
   color: #424143;
@@ -2957,6 +2959,9 @@ section.contact-info .contact h2 {
     /*============ Index ===============*/
 
     /*============ Popup ===============*/
+    .pop-on-ld .modal-dialog{
+      padding: 0 10px;
+    }
     .pop-on-ld .modal-body {
       padding: 0px 18px 18px 18px;
     }
