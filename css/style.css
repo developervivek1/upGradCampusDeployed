@@ -3705,7 +3705,7 @@ ul.newsletter-series li {
 .arrow {
   position: relative;
   display: inline-block;
-  padding-top: 4px;
+  padding-top: 9px;
   padding-bottom: 4px;
 }
 .arrow:before {
@@ -3725,7 +3725,7 @@ ul.newsletter-series li {
   border-top: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   transform: rotate(45deg);
-  top: calc(50% - 5px);
+  top: calc(50% - 3px);
   position: absolute;
   right: 1px;
 }
