@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'charterregular';
+  image-rendering: -moz-crisp-edges; 
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 body{
@@ -1244,9 +1247,10 @@ header .overlay.active
 }
 
 .owl-two.owl-carousel .owl-item img{
-  object-fit: contain;
+  width: auto !important;
+  /* object-fit: contain;
   width: 80%;
-  object-position: 50% 50%;
+  object-position: 50% 50%; */
 }
 /* popup css end */
 
@@ -2176,12 +2180,12 @@ header .formoverlay.active {
   margin-top: 0px ;
   }
   .contact-form  button {
-  padding: 19px 68px !important;
+  padding: 10px 60px !important;
   background: #EE2C3C;
   border: 0px !important;
   border-radius:10px ;
   font-size: 18px;
-  box-shadow: 0px 2px 20px #ee2c3c61;
+  box-shadow: 0px 2px 6px #ee2c3c61;
   color: #fff !important;
   }
   .contact-form button:hover {
