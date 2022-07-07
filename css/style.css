@@ -4,8 +4,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'charterregular';
+  /* image-rendering: pixelated; */
   image-rendering: -moz-crisp-edges; 
-  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
 }
 
@@ -1051,6 +1052,10 @@ box-shadow: 0px 10px 60px #262D7614;
 .whatsapp a img{
   width: 100%;
   transition: all 0.5s;
+  image-rendering: -moz-crisp-edges; 
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 .whatsapp a img:hover{
@@ -1248,6 +1253,10 @@ header .overlay.active
 
 .owl-two.owl-carousel .owl-item img{
   width: auto !important;
+  image-rendering: -moz-crisp-edges; 
+  image-rendering: pixelated;
+  /* image-rendering: -webkit-optimize-contrast; */
+  -ms-interpolation-mode: nearest-neighbor;
   /* object-fit: contain;
   width: 80%;
   object-position: 50% 50%; */
@@ -4430,10 +4439,10 @@ line {
 #navbar {
   padding: 1vw;
 }
-.navbar-brand img{
+/* .navbar-brand img{
   width: 122px;
   height: 64px;
-}
+} */
 
 
 .headDiv {
@@ -4958,10 +4967,12 @@ footer .form input {
   {
     margin-left: 5px;
   }
+ 
   .navbar-brand img
   {
     margin-left: -15px;
     width: 86px;
+    image-rendering: pixelated;
   }
   .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
     overflow-y: auto;
