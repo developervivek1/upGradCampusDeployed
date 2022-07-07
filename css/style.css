@@ -428,7 +428,7 @@ body{
 .btn:hover, .btn:focus {
   color: #FFFFFF;
   background-color:#EE2C3C;
-  border-color: #EE2C3C;
+  /* border-color: #EE2C3C; */
 }
 .btn img{
   /* margin-top: 2px; */
@@ -613,7 +613,9 @@ button.button1.btn {
   color: #FFFFFF;
   box-shadow: 0px 0px 12px #EE2C3C61;
 }
-
+.banner-section .enrollBtn:hover{
+  box-shadow: 0 2px 20px #ee2c3c61;
+}
 .banner-section .enrollBtn img{
   width: 22px;
 }
@@ -2239,14 +2241,16 @@ header .formoverlay.active {
   height: 237px;
   margin-top: 0px ;
   }
-  .contact-form  button {
-  padding: 10px 60px !important;
-  background: #EE2C3C;
-  border: 0px !important;
-  border-radius:10px ;
-  font-size: 18px;
-  box-shadow: 0px 2px 6px #ee2c3c61;
-  color: #fff !important;
+  .contact-form button {
+    /* padding: 10px 60px !important; */
+    background: #EE2C3C;
+    border: 0px !important;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0px 0px 12px #ee2c3c61;
+    color: #fff !important;
+    width: 150px;
+    height: 50px;
   }
   .contact-form button:hover {
   background: #EE2C3C;
@@ -2937,8 +2941,9 @@ section.contact-info .contact h2 {
       font-size: 15px;
       padding: 4px 12px;
     }
-    .btn-group img {
+    .pop-on-ld .btn-group li .btn img {
       max-width: 84px !important;
+      width: 29%;
    }
    .btn-group ul {
       padding: 0;
@@ -3095,8 +3100,10 @@ h5.card-text {
   }
   .contact-form { margin-top: 120px !important }
   .contact-form button {
-  padding: 12px 34px !important;
-  font-size: 14px;
+    /* padding: 12px 34px !important; */
+    width: 125px;
+    font-size: 14px;
+    height: 43px;
   }
   section.contact-info .container {
   padding: 30px 30px;}
