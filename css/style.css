@@ -667,7 +667,7 @@ button.button1.btn {
     width: 44px;
     height: 30px;
     border-radius: 50px;
-    left: 0.2%;
+    left: -2%;
     opacity: 0.8;
   }
 
@@ -677,7 +677,7 @@ button.button1.btn {
     width: 42px;
     height: 30px;
     border-radius: 50px;
-    right: 0.3%;
+    right: -2%;
     opacity: 0.8;
   }
 
