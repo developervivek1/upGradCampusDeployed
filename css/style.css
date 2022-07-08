@@ -195,8 +195,8 @@ body{
   z-index: 2000;
   position: absolute;
   content: "";
-  background: #EC2A3D;
-  color: #EC2A3D !important;
+  /* background: #EC2A3D;
+  color: #EC2A3D !important; */
   width: 6px;
   height: 6px;
   bottom: 0px;
@@ -218,13 +218,13 @@ body{
   color: #EC2A3D !important;
 }
 
-.nav-link.show{
+/* .nav-link.show{
   color: #EC2A3D;
-}
+} */
 
-.nav-link.show img{
+/* .nav-link.show img{
   filter: opacity(.5) brightness(2.5) drop-shadow(0 0 0 red) contrast(321%);
-}
+} */
 
 .nav-link.active img{
   filter: opacity(.5) brightness(2.5) drop-shadow(0 0 0 red) contrast(321%);
