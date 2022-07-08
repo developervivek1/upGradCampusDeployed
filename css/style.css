@@ -195,8 +195,8 @@ body{
   z-index: 2000;
   position: absolute;
   content: "";
-  background: #EC2A3D;
-  color: #EC2A3D !important;
+  /* background: #EC2A3D;
+  color: #EC2A3D !important; */
   width: 6px;
   height: 6px;
   bottom: 0px;
@@ -218,13 +218,13 @@ body{
   color: #EC2A3D !important;
 }
 
-.nav-link.show{
+/* .nav-link.show{
   color: #EC2A3D;
-}
+} */
 
-.nav-link.show img{
+/* .nav-link.show img{
   filter: opacity(.5) brightness(2.5) drop-shadow(0 0 0 red) contrast(321%);
-}
+} */
 
 .nav-link.active img{
   filter: opacity(.5) brightness(2.5) drop-shadow(0 0 0 red) contrast(321%);
@@ -715,7 +715,7 @@ box-shadow: 0px 10px 60px #262D7614;
   }
 
   .card1:hover .card3 .scaleImg {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .cardContent h6{
@@ -1278,6 +1278,10 @@ img {
   }
   .pop-on-ld .btn-group li:nth-child(3) .btn{
     background-color: #EC2C39;
+  }
+
+  #subscribeModal ul{
+    padding-left:0px ;
   }
 
 header .overlay
@@ -3754,19 +3758,19 @@ ul.newsletter-series li {
 
 
 .button-holder a:link {
-  color: #fff;
+  color: #ee2c3c;
 }
 .button-holder a:visited {
-  color: #fff;
+  color: #ee2c3c;
 }
 .button-holder a:link {
-  color: #fff;
+  color: #ee2c3c;
 }
 .button-holder a:hover {
-  color: #fff;
+  color: #ee2c3c;
 }
 .button-holder a:active {
-  color: #fff;
+  color: #ee2c3c;
 }
 
 
