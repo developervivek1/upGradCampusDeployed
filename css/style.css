@@ -715,7 +715,7 @@ box-shadow: 0px 10px 60px #262D7614;
   }
 
   .card1:hover .card3 .scaleImg {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .cardContent h6{
