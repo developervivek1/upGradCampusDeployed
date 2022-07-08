@@ -1,4 +1,9 @@
 const wapp = document.querySelector('.whatsapp');
+const allImg = document.querySelectorAll('img');
+
+allImg.forEach(img => {
+  img.setAttribute('loading','lazy');
+});
 
 // whatsapp Pop
 window.addEventListener('DOMContentLoaded',()=>{
