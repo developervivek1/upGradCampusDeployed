@@ -1280,6 +1280,10 @@ img {
     background-color: #EC2C39;
   }
 
+  #subscribeModal ul{
+    padding-left:0px ;
+  }
+
 header .overlay
 {
   position: fixed;
