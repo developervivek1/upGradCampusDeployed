@@ -95,7 +95,7 @@ ul {
   padding: 5px 10px
 }
 
-.navbar .navbar-collapse ul li .cust-drop{
+.navbar .navbar-collapse ul li .joinCourse{
   padding: 7px 13px 9px;
   background: #ec2c39;
   border-radius: 12px;
@@ -127,7 +127,7 @@ footer .firstDiv {
 }
 
 .joinCourse span {
-  color: #900
+  color: #fff;
 }
 
 .subdropdown {
