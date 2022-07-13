@@ -190,8 +190,11 @@ footer .firstDiv {
 .search-box .col-md-12.mx-auto,
 p {
   margin-bottom: 0;
+  
 }
-
+.bar_div p{
+  font-size: 13px;
+}
 .headDiv {
   height: 200px;
   background: #fafbfc;
@@ -736,6 +739,19 @@ tr th:nth-child(3) {
   letter-spacing: 0.03px;
 }
 
+.cardContent .camp-icon {
+  width: 65px;
+  height: 65px;
+  margin: -81px 0px 18px 16px;
+  position: relative;
+  z-index: 10;
+}
+
+.cardContent .camp-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .fs2 li img {
   width: 7px !important;
 }
@@ -898,9 +914,15 @@ tr th:nth-child(3) {
 .techCard .scaleIcon img {
   position: absolute;
   bottom: 0;
-  width: 21%;
+  width: 65px;
   left: -5px;
   top: 95px;
+  height: 65px;
+}
+
+.NewAgeCard .scaleIcon img {
+  width: 65px;
+  height: 65px;
 }
 
 .owl-one .cardContent,
@@ -2777,7 +2799,7 @@ table ul li:before {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1300px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   .slentedDiv .owl-carousel .owl-stage {
     display: flex;
   }
@@ -2796,6 +2818,15 @@ table ul li:before {
   }
   .owl-one .scaleIcon {
     bottom: 199px;
+  }
+
+  .techCard {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .techCard > .row {
+    width: 250%;
+    flex-wrap: nowrap;
   }
 }
 
@@ -4469,7 +4500,13 @@ line {
   }
 }
 
-@media (min-width: 1650px) and (min-width: 1920px) {
+@media (max-width: 1200px) {
+  .NewAgeCard {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1650px) and (max-width: 1920px) {
   .headDiv a,
   .headDiv h6,
   footer .form h6 {
@@ -4860,9 +4897,12 @@ line {
   margin-right: 12px;
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1920px) {
   .headDiv {
     height: 268px;
+  }
+  .techCard .scaleIcon img {
+    top: 173px;
   }
 }
 
@@ -5138,6 +5178,8 @@ line {
 
   .banner-section .grp_logo img {
     width: 50%;
+    object-position: center;
+    padding-bottom: 15px;
   }
 
   .banner-section .text_part h5 {
@@ -5182,7 +5224,7 @@ line {
 
   .banner-section .carousel-item .right-img {
     right: 6.2%;
-    top: 30%;
+    top: 32%;
     height: 210px;
     width: 87.6%;
   }
