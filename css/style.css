@@ -3610,12 +3610,11 @@ table ul li:before {
   height: 70px;
   object-fit: contain;
 }
-.owl-carousel .owl-item img {
-  width: 100px;
-  height: 100px;
+.owl-five img {
+  width: 90px;
+  height: 90px;
   object-fit: contain;
 }
-
 .whatsapp.active {
   animation: 2s infinite bounce2;
 }
