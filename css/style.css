@@ -3604,9 +3604,13 @@ table ul li:before {
   }
 }
 
-.logo-compaines .owl-carousel .owl-item img,
-.logo-image img {
+.logo-section img {
   /* width: auto !important; */
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.owl-carousel .owl-item img {
   width: 100px;
   height: 100px;
   object-fit: contain;
