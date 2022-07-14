@@ -190,9 +190,8 @@ footer .firstDiv {
 .search-box .col-md-12.mx-auto,
 p {
   margin-bottom: 0;
-  
 }
-.bar_div p{
+.bar_div p {
   font-size: 13px;
 }
 .headDiv {
@@ -2342,7 +2341,7 @@ th.left-tb-heading {
 }
 
 .accordion-body a {
-  color: #ee2c3c;
+  color: #ee2c3c !important;
   text-decoration: none;
 }
 
